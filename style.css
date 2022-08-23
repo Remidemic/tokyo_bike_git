@@ -1,0 +1,142 @@
+.freeShipping {
+    text-align: center;
+    background-color: hwb(98 40% 53%);
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: 0;
+}
+
+.navContainer {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 10PX;
+}
+
+.navRight {
+    width: 33%;
+    height: 50px;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.link {
+    background-color: white;
+    color: rgb(78, 100, 93);
+    margin-right: 10px;
+}
+
+.link:hover {
+    color: white;
+    background-color: rgb(78, 100, 93);
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.picContainer {
+    height: 100vh;
+    background-image: url("/assets/tokyobike-Oksana.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, .75);
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.shopnowBox {
+    width: fit-content;
+    padding: 20px;
+    color: black;
+    border: solid 1px black;
+    background-color: white;
+}
+
+.shopnowBox:hover {
+    width: fit-content;
+    padding: 20px;
+    background-color: black;
+    border: solid 1px black;
+    color: white;
+}
+
+.bikes {
+    border: solid 0px black;
+    display: flex;
+    align-items: flex-end;
+}
+
+.MEETLINEUP {
+    text-align: center;
+    color: rgb(135, 135, 135);
+    background-color: rgb(238, 238, 238);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.bottomContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.bikeimg {
+    width: 33%;
+    transition: all .2s ease-in-out;
+}
+
+.bikeimg:hover {
+    transform: scale(1.3);
+}
+
+.inside {
+    padding: 10px;
+    width: 300px;
+}
+
+.bikename {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(238, 238, 238);
+}
+
+.bname {
+    width: 30%;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+}
